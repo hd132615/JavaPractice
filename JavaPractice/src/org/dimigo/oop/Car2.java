@@ -55,7 +55,7 @@ public class Car2 {
 		return price;
 	}
 	
-	public void setCompany(String newCompany) {
+	/* public void setCompany(String newCompany) {
 		company = newCompany;
 	}
 	
@@ -74,4 +74,5 @@ public class Car2 {
 	public void setPrice(int newPrice) {
 		price = newPrice;
 	}
+	*/
 }
