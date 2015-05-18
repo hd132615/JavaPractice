@@ -101,7 +101,7 @@ public class Snack {
 	}
 	
 	int calcPrice() {
-		int result = this.price;
+		int result = this.price * this.number;
 		
 		return result;
 	}

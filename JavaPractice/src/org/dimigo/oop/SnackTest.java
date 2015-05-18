@@ -33,7 +33,7 @@ public class SnackTest {
 		for(Snack snack : snackArr ) {
 			snack.printSnack();
 			
-			result += snack.calcPrice() * snack.getNumber();
+			result += snack.calcPrice();
 		}
 		
 		System.out.println("총 구매 금액 : " + String.format("%,d", result) + "원");
