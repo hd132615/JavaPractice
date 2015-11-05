@@ -34,14 +34,14 @@ public class Runner extends Thread{
 		System.out.println(name + " 출발");
 		
 		for(int i = 10; i >= 0; i--) {
-			System.out.println(name + " " + i*10 + " 미터");
-			
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			
+			System.out.println(name + " " + i*10 + " 미터");
 		}
 		
 		System.out.println(name + " 골인");

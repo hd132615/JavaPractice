@@ -22,6 +22,9 @@ public class Race {
 		
 		Runner r1 = new Runner("A");
 		Runner r2 = new Runner("B");
+		
+		r1.setPriority(Thread.MAX_PRIORITY);
+		r2.setPriority(Thread.MIN_PRIORITY);
 	
 		r1.start();
 		r2.start();
